@@ -5,6 +5,18 @@
 
 **Loki** is my VPN-protected torrent server built on a Raspberry Pi 4.
 
+## 📁 Repo Structure
+
+```text
+loki/
+├── .github/workflows/    # CI for YAML validation
+├── backups/              # Exported or example snapshot files
+├── docker/               # YAML-based -darr stack applications
+└── README.md             # You're reading it!
+```
+
+---
+
 ### 🧰 Services
 - **Transmission**: Lightweight and powerful BitTorrent client.
 - **MullvadVPN**: Keeps traffic encrypted and anonymous.
