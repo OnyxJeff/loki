@@ -17,13 +17,11 @@ loki/
 
 ---
 
-### 🧰 Services
+## 🧰 Services
 - **Transmission**: Lightweight and powerful BitTorrent client.
 - **MullvadVPN**: Keeps traffic encrypted and anonymous.
 
----
-
-## 📦 Docker Compose
+### 📦 Docker Compose
 
 ```bash
 cd docker/transmission-vpn
@@ -31,6 +29,8 @@ docker-compose up -d
 ```
 
 Be sure to configure your Mullvad credentials in the .env file or bind them securely via Docker secrets.
+
+---
 
 ## 💾 Backup
 
